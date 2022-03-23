@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AspnetCoreSqliteApi.Controllers;
 
 [ApiController]
-[Route("[controller]/[action]/{id?}")]
+[Route("api/[controller]/[action]/{id?}")]
 public class TaskController : ControllerBase
 {
     ITaskService _taskService;

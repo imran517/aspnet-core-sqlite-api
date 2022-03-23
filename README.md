@@ -51,22 +51,22 @@ Try the following urls in Postman.
 
 * GetTasks (GET)
 
-  * http://127.0.0.1:5053/gettasks
+  * http://127.0.0.1:5053/api/task/gettasks
 * GetTask (GET)
 
-  * http://127.0.0.1:5053/gettask/1
+  * http://127.0.0.1:5053/api/task/gettask/1
 * AddTask (POST)
 
-  * http://127.0.0.1:5053/addtask
+  * http://127.0.0.1:5053/api/task/addtask
   * body -> raw, json
   * { "id" : "1", "name": "task1", "description": "task1", "priority": "low", "status": "none" }
 * UpdateTask (POST)
 
-  * http://127.0.0.1:5053/updatetask
+  * http://127.0.0.1:5053/api/task/updatetask
   * body -> raw, json
   * { "id" : "1", "name": "task11", "description": "task11", "priority": "medium", "status": "started" }
 * DeleteTask (POST)
 
-  * http://127.0.0.1:5053/deletetask
+  * http://127.0.0.1:5053/api/task/deletetask
   * body -> raw, json
   * { "id" : "1" }
